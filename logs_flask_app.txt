@@ -1,0 +1,18 @@
+
+127.0.0.1 - - [14/Apr/2025 02:32:19] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 02:32:29] "PUT /iris/model/0/train?dataset=0 HTTP/1.1" 200 -
+1/1 [==============================] - 0s 158ms/step
+127.0.0.1 - - [14/Apr/2025 02:32:44] "POST /iris/model/0/predict HTTP/1.1" 200 -
+38/38 [==============================] - 0s 2ms/step
+127.0.0.1 - - [14/Apr/2025 02:33:13] "GET /iris/model/0/test?dataset=0 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 03:06:55] "POST /iris/model/new HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 03:06:59] "PUT /iris/model/1/train?dataset=1 HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 03:07:22] "PUT /iris/model/0/train?dataset=0 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 03:07:23] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:23] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:26] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:28] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:28] "PUT /iris/model/0/train?dataset=0 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 03:07:39] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:44] "POST /iris/model/new HTTP/1.1" 201 -
+127.0.0.1 - - [14/Apr/2025 03:07:56] "PUT /iris/model/6/train?dataset=0 HTTP/1.1" 200 -
